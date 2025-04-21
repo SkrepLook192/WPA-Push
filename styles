@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1em;
+    background: #f4f4f4;
+  }
+  .app {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  form {
+    display: flex;
+    gap: 0.5em;
+  }
+  input {
+    flex: 1;
+    padding: 0.5em;
+  }
+  button {
+    padding: 0.5em 1em;
+    cursor: pointer;
+  }
+  .filters {
+    margin: 1em 0;
+  }
+  .filters button {
+    margin-right: 5px;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  ul#task-list li {
+    cursor: pointer;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ccc;
+  }
